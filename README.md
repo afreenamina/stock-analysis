@@ -12,13 +12,16 @@ Explain the purpose of this analysis.
                   2) Calculating yearly returns for each stock.
 
 ##### Calculating the total daily Volume 
-To check if the stock is traded often and to find yearly volume - we sum all the daily Volume for each stock.
+- To check how often the stock is traded often - we sum all the daily Volume for each stock.
+- Below is the VB script to find the total volume of each stock
 
 ![total stock](https://user-images.githubusercontent.com/92698873/140691967-5f6b352f-2b36-497e-98f8-29e15ad8c101.png)
 
 
 ##### Calculating yearly returns
-Yearly returns are calculated to know the percentage increase or decrease in price from the beginning of the year to the end of the year.This is calculated by Ending price of the stock minus the starting Price of the stock.
+- Yearly returns are calculated to know the percentage increase or decrease in closing price from the beginning of the year to the end of the year.
+- This is calculated by percentage increase or decrease in price from the beginning of the year to the end of the year
+- Below is the code for getting the closing price for the beginning of the year and closing price for the end of the year for each stock
 
 ![starting Ending](https://user-images.githubusercontent.com/92698873/140692019-91679e36-dacb-4b9d-b568-a31bdca82a79.png)
 
